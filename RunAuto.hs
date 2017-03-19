@@ -33,6 +33,27 @@ parseTransitionLine l | length ws < 3 = Nothing
         q' = readMaybe q :: Maybe Natural
         qs' = map (\n -> readMaybe n :: Maybe Natural) qs
 
+parseInput :: String -> Maybe ((Natural, [Natural], [Natural], [(Natural, Char, [Natural])]), String)
+parseInput input | length strings < 4 = Nothing
+                 | isNothing numStates = Nothing
+                 | isNothing startStates = Nothing
+                 | isNothing acceptStates = Nothing
+                 | any isNothing transitionList = Nothing
+                 | not $ all isUpper word = Nothing
+                 | otherwise =
+                   Just ((fromJust numStates, fromJust startStates,
+                   fromJust acceptStates, concatMap fromJust transitionList), word)
+  where isEmptyLine l = null l || all isSpace l
+        strings = filter (not . isEmptyLine) $ lines input
+        numStatesStr:startStatesStr:acceptStatesStr:restStrList = strings
+        numStates = readMaybe numStatesStr :: Maybe Natural
+        startStates = readMaybe startStatesStr :: Maybe [Natural]
+        acceptStates = readMaybe acceptStatesStr :: Maybe [Natural]
+        transitionList = map parseTransitionLine $ init restStrList
+        word = last restStrList -- TODO strip
+
+-- numStates <- readMaybe numStatesStr :: Maybe Natural
+
 -- parseInput :: String -> Maybe ((Natural, [Natural], [Natural], [(Natural, Char, [Natural])]), String)
 -- parseInput input =
 --   let isEmptyLine l = null l || all isSpace l
