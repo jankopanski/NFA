@@ -9,19 +9,23 @@ import Data.List
 
 main :: IO ()
 main = do
+  let errMsg = "BAD INPUT"
   [filePath] <- getArgs
   handle <- openFile filePath ReadMode
   contents <- hGetContents handle
   let parsed = parseInput contents
-  if isNothing parsed then print "BAD INPUT"
+  if isNothing parsed then print errMsg
   else
     let (t@(n, is, ia, tr), word) = fromJust parsed
         st = generateStateList t
-    in if length st > n then print "BAD INPUT"
+    in if length st > n then print errMsg
       else
         let aut = fromLists st is ia tr
         in print $ accepts aut word
   hClose handle
+
+-- printError :: String -> IO ()
+-- printError e = let errMsg = "BAD INPUT: " in print $ errMsg ++ e
 
 parseTransitionLine :: String -> Maybe [(Natural, Char, [Natural])]
 parseTransitionLine l | length ws < 3 = Nothing
@@ -54,4 +58,5 @@ parseInput input | length strings < 4 = Nothing
         word = last restStrList -- TODO strip
 
 generateStateList :: (Int, [Natural], [Natural], [(Natural, Char, [Natural])]) -> [Natural]
-generateStateList (_, is, ia, tr) = nub $ is ++ ia ++ map (\(q, _, _) -> q) tr ++ concatMap (\(_, _, qs) -> qs) tr
+generateStateList (_, is, ia, tr) =
+  nub $ is ++ ia ++ map (\(q, _, _) -> q) tr ++ concatMap (\(_, _, qs) -> qs) tr
