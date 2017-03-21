@@ -35,10 +35,10 @@ trim :: String -> String
 trim = let f = reverse . dropWhile isSpace in f . f
 
 parseTransitionLine :: String -> Maybe [(Natural, Char, [Natural])]
-parseTransitionLine l | length ws < 3 = Nothing
-                      | isNothing q' = Nothing
+parseTransitionLine l | length ws < 3        = Nothing
+                      | isNothing q'         = Nothing
                       | not $ all isUpper cs = Nothing
-                      | any isNothing qs' = Nothing
+                      | any isNothing qs'    = Nothing
                       | otherwise = Just $ nub [ (fromJust q', c, map fromJust qs') | c <- cs ]
   where ws = words l
         q:cs:qs = ws
@@ -55,12 +55,12 @@ mergeTransitions l = unionMap $ groupBy transitionEq $ sort l
                             in (q, c, foldl union [] qsl))
 
 parseInput :: String -> Maybe ((Int, [Natural], [Natural], [(Natural, Char, [Natural])]), String)
-parseInput input | length strings < 4 = Nothing
-                 | isNothing numStates = Nothing
-                 | isNothing startStates = Nothing
-                 | isNothing acceptStates = Nothing
+parseInput input | length strings < 4           = Nothing
+                 | isNothing numStates          = Nothing
+                 | isNothing startStates        = Nothing
+                 | isNothing acceptStates       = Nothing
                  | any isNothing transitionList = Nothing
-                 | not $ all isUpper word = Nothing
+                 | not $ all isUpper word       = Nothing
                  | otherwise =
                    Just ((fromJust numStates, fromJust startStates,fromJust acceptStates,
                    mergeTransitions $ concatMap fromJust transitionList), word)
