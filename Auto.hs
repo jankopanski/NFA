@@ -80,30 +80,3 @@ instance (Show a, Enum a, Bounded a, Show q) => Show (Auto a q) where
   show aut = let (st, is, ia, tr) = toLists aut in
     "states: " ++ show st ++ "\ninitStates: " ++ show is
     ++ "\nisAccepting: " ++ show ia ++ "\ntransition: " ++ show tr
-  -- show = show . toLists
-
-ex1 :: Auto Char Int
-ex1 = A [1,2,3] [1] (== 3) t
-  where
-    t 1 'a' = [2]
-    t 2 'b' = [3]
-    t 3 'b' = [2]
-    t _ _ = []
-
-ex2 :: Auto Char Int
-ex2 = A [1,2,3] [1] (/= 1) t
-  where
-    t 1 'a' = [2,3]
-    t 2 'b' = [3]
-    t 3 'b' = [3]
-    t _ _ = []
-
-ex3 = thenA (leftA ex1) (leftA ex2)
-
-ex4 :: Auto Bool Char
-ex4 = A ['a', 'b', 'c'] ['a'] (== 'c') t
-  where
-    t 'a' True = ['b']
-    t 'b' False = ['c']
-    t 'c' False = ['b']
-    t _ _ = []
