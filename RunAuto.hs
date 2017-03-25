@@ -53,8 +53,8 @@ mergeTransitions l = unionMap $ groupBy transitionEq $ sort l
     transitionEq :: (Natural, Alpha, [Natural]) -> (Natural, Alpha, [Natural]) -> Bool
     transitionEq (q1, c1, _) (q2, c2, _) = q1 == q2 && c1 == c2
     unionMap :: [[(Natural, Alpha, [Natural])]] -> [(Natural, Alpha, [Natural])]
-    unionMap = map (\trl -> let ([q], [c], qsl) = unzip3 trl
-                            in (q, c, foldl union [] qsl))
+    unionMap = map (\trl -> let (ql, cl, qsl) = unzip3 trl
+                            in (head ql, head cl, foldl union [] qsl))
 
 parseInput :: String -> Maybe ((Int, [Natural], [Natural], [(Natural, Alpha, [Natural])]), [Alpha])
 parseInput input | length strings < 4           = Nothing
