@@ -1,5 +1,4 @@
 import Auto
-import System.IO
 import System.Environment
 import Text.Read
 import Numeric.Natural
@@ -13,8 +12,7 @@ main = do
   filePath:args <- getArgs
   if not $ null args then print errMsg
   else do
-    handle <- openFile filePath ReadMode
-    contents <- hGetContents handle
+    contents <- readFile filePath
     let parsed = parseInput contents
     if isNothing parsed then print errMsg
     else
@@ -24,14 +22,9 @@ main = do
         else
           let aut = fromLists st is ia tr
           in print $ accepts aut word
-    hClose handle
-
--- funkcja readFile
 
 -- printError :: String -> IO ()
 -- printError e = let errMsg = "BAD INPUT: " in print $ errMsg ++ e
-
--- mergować przejścia postaci q, ABC -> [1,2,3]; q, ABC -> [3,4,5]
 
 trim :: String -> String
 trim = let f = reverse . dropWhile isSpace in f . f
@@ -64,7 +57,7 @@ parseInput input | length strings < 4           = Nothing
                  | any isNothing transitionList = Nothing
                  | not $ all isUpper word       = Nothing
                  | otherwise =
-                   Just ((fromJust numStates, fromJust startStates,fromJust acceptStates,
+                   Just ((fromJust numStates, fromJust startStates, fromJust acceptStates,
                    mergeTransitions $ concatMap fromJust transitionList), word)
   where isEmptyLine l = null l || all isSpace l
         strings = filter (not . isEmptyLine) $ lines input
