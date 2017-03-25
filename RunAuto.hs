@@ -64,7 +64,7 @@ parseInput input | length strings < 4           = Nothing
                  | any isNothing transitionList = Nothing
                  | not $ all isUpper word       = Nothing
                  | otherwise =
-                   Just ((fromJust numStates, fromJust startStates, fromJust acceptStates,
+                   Just ((fromJust numStates, nub $ fromJust startStates, nub $ fromJust acceptStates,
                    mergeTransitions $ concatMap fromJust transitionList), map Alpha word)
   where isEmptyLine l = null l || all isSpace l
         strings = filter (not . isEmptyLine) $ lines input
