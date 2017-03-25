@@ -75,10 +75,12 @@ fromLists st is ia tl = A st is (`elem` ia) tr
 toLists :: (Enum a,Bounded a) => Auto a q -> ([q],[q],[q],[(q,a,[q])])
 toLists (A st is ia tr) = (st, is, filter ia st, tl)
   where tl = [ (q, a, s) | q <- st, a <- [minBound..], let s = tr q a, not $ null s ]
--- TODO jak to przyśpieszyć?
 
 instance (Show a, Enum a, Bounded a, Show q) => Show (Auto a q) where
-  show = show . toLists
+  show aut = let (st, is, ia, tr) = toLists aut in
+    "states: " ++ show st ++ "\ninitStates: " ++ show is
+    ++ "\nisAccepting: " ++ show ia ++ "\ntransition: " ++ show tr
+  -- show = show . toLists
 
 ex1 :: Auto Char Int
 ex1 = A [1,2,3] [1] (== 3) t

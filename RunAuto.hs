@@ -26,6 +26,8 @@ main = do
           in print $ accepts aut word
     hClose handle
 
+-- funkcja readFile
+
 -- printError :: String -> IO ()
 -- printError e = let errMsg = "BAD INPUT: " in print $ errMsg ++ e
 
