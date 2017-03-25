@@ -1,7 +1,7 @@
 import Auto
 import System.Environment
 import Text.Read
-import Numeric.Natural
+-- import Numeric.Natural
 import Data.Char
 import Data.Maybe
 import Data.List
@@ -22,6 +22,13 @@ main = do
         else
           let aut = fromLists st is ia tr
           in print $ accepts aut word
+
+-- Podczas pisania programu korzystałem z typu Natural zdefiniowanego w
+-- bibliotece Numeric.Natural. Niestety kompilator na studentsie jest zbyt stary
+-- i nie posiada tej biblioteki. W przypadku kompilacji programu nowszą
+-- wersją kompilatora można zakomentować poniższą linię i odkomnetować
+-- linię "import Numeric.Natural"
+type Natural = Int
 
 newtype Alpha = Alpha Char deriving (Eq, Ord)
 instance Bounded Alpha where
