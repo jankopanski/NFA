@@ -23,8 +23,14 @@ main = do
           let aut = fromLists st is ia tr
           in print $ accepts aut word
 
--- printError :: String -> IO ()
--- printError e = let errMsg = "BAD INPUT: " in print $ errMsg ++ e
+newtype Alpha = Alpha Char deriving (Eq)
+instance Bounded Alpha where
+    minBound = Alpha 'A'
+    maxBound = Alpha 'Z'
+instance Enum Alpha where
+  toEnum n = Alpha $ chr $ n + 65
+  fromEnum (Alpha a) = ord a - 65
+instance Show Alpha where show (Alpha a) = show a
 
 trim :: String -> String
 trim = let f = reverse . dropWhile isSpace in f . f
