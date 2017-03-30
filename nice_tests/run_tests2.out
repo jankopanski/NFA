@@ -1,0 +1,586 @@
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test1082.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test1506.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test1520.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test1686.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test1724.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test1779.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test1816.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test1829.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test1854.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test187.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test1904.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test190.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test2145.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test2185.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test2187.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test2219.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test2270.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test2369.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test2375.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test2661.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test2779.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test2904.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test2981.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test3172.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test3260.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test3272.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test3312.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test3404.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test3748.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test392.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test4023.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test4026.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test411.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test4350.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test4559.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test4580.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test4759.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test4826.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test5219.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test53.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test5453.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test5516.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test5675.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test5801.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test6141.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test6181.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test6261.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test6456.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test6504.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test6667.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test6716.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test6850.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test6869.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test697.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test7004.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test7023.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test710.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test7141.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test7314.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test764.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test7678.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test7843.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test7950.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test8015.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test8028.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test8056.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test8295.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test8371.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test8426.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test8632.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test867.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test8706.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test8776.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test8784.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test8835.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test8866.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test889.tmp FAILED!
+1d0
+< True
+/home/jan/jpp/NFA/nice_tests/tmp/test9042.tmp FAILED!
+1d0
+< True
+/home/jan/jpp/NFA/nice_tests/tmp/test9043.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9044.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9045.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9046.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9047.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9048.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9049.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test904.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9050.tmp FAILED!
+1d0
+< True
+/home/jan/jpp/NFA/nice_tests/tmp/test9051.tmp FAILED!
+1d0
+< True
+/home/jan/jpp/NFA/nice_tests/tmp/test9052.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9053.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9054.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9055.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9056.tmp FAILED!
+1d0
+< True
+/home/jan/jpp/NFA/nice_tests/tmp/test9057.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9058.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9059.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test905.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9060.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9061.tmp FAILED!
+1d0
+< True
+/home/jan/jpp/NFA/nice_tests/tmp/test9062.tmp FAILED!
+1d0
+< True
+/home/jan/jpp/NFA/nice_tests/tmp/test9063.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9064.tmp FAILED!
+1d0
+< True
+/home/jan/jpp/NFA/nice_tests/tmp/test9065.tmp FAILED!
+1d0
+< True
+/home/jan/jpp/NFA/nice_tests/tmp/test9066.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9067.tmp FAILED!
+1d0
+< True
+/home/jan/jpp/NFA/nice_tests/tmp/test9068.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9069.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test906.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9070.tmp FAILED!
+1d0
+< True
+/home/jan/jpp/NFA/nice_tests/tmp/test9071.tmp FAILED!
+1d0
+< True
+/home/jan/jpp/NFA/nice_tests/tmp/test9072.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9073.tmp FAILED!
+1d0
+< True
+/home/jan/jpp/NFA/nice_tests/tmp/test9074.tmp FAILED!
+1d0
+< True
+/home/jan/jpp/NFA/nice_tests/tmp/test9075.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9076.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9077.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9078.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9079.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test907.tmp FAILED!
+1d0
+< True
+/home/jan/jpp/NFA/nice_tests/tmp/test9080.tmp FAILED!
+1d0
+< True
+/home/jan/jpp/NFA/nice_tests/tmp/test9081.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9082.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9083.tmp FAILED!
+1d0
+< False
+/home/jan/jpp/NFA/nice_tests/tmp/test9084.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test921.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test9302.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test9386.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test9394.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test946.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test9487.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test9579.tmp FAILED!
+1c1
+< False
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test9734.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test9841.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test9852.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test985.tmp FAILED!
+1c1
+< True
+---
+> "BAD INPUT"
+/home/jan/jpp/NFA/nice_tests/tmp/test9986.tmp FAILED!
